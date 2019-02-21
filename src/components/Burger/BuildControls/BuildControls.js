@@ -21,7 +21,7 @@ const BuildControls = (props) =>
     )
 )
 }
-<botton className = {classes.button}> <span>Order Now </span> </botton>   
+<botton className = {classes.button} onClick = {props.purchasing}> <span>Order Now </span> </botton>   
 </div>
 
 );
